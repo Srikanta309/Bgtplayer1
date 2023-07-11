@@ -71,7 +71,7 @@ autoclean = []
 START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/3127b3484676bd2254e97.jpg")
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/%E1%8E%BB%E1%8E%AC%E1%8E%AA%EA%AA%9C%E1%8E%AC%C6%9D-%F0%93%86%A9%F0%93%86%AA-%F0%9D%99%8F%F0%9D%99%A7%F0%9D%99%96%F0%9D%99%98%F0%9D%99%A0-07-11-3"
 GLOBAL_IMG_URL = "https://te.legra.ph/file/2e2741f5dfe9f62eed91d.png"
 STATS_IMG_URL = "https://te.legra.ph/file/2be94fc76030833b51a78.png"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/d68f9ff85714d4dbc6069.png"
@@ -107,9 +107,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/3127b3484676bd2254e97.jpg"
+            PING_IMG_URL = "https://telegra.ph/PPingpong-07-11"
 
 if START_IMG_URL:
     if START_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/c8135608b7f9f77541a82.jpg"
+            START_IMG_URL = "https://telegra.ph/%E1%8E%BB%E1%8E%AC%E1%8E%AA%EA%AA%9C%E1%8E%AC%C6%9D-%F0%93%86%A9%F0%93%86%AA-%F0%9D%99%8F%F0%9D%99%A7%F0%9D%99%96%F0%9D%99%98%F0%9D%99%A0-07-11-2"
